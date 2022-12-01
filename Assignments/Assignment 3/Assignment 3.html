@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons Assignment 3</title>
+    <style>
+        h1{
+            color: #000000;
+            margin-left: 0%;
+            font-size: xxx-large;
+            margin-bottom: 5%;
+        }
+        table,tr,th,td{
+            width: 600px;
+            border-spacing: 0em;
+            text-align: center;
+        }
+        button{
+            background-color: #00ca99;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+        }
+        .plus-sign{
+            width: 60px;
+            height: 50px;
+            border-radius: 80%;
+            overflow: hidden;
+            border-color: #3abe9d;
+            color: #9f4141 ;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .click:active{
+              font-size: 20px;
+        }
+        .click:hover{
+            border-bottom: 4px solid rgb(105, 25, 25);
+            box-shadow: 10px 10px 10px rgb(110, 80, 20);
+        }
+        .disable:hover{
+            cursor: not-allowed;
+        }
+        .disable{
+            opacity: 0.5;
+        }
+        .primary{
+            background-color:#4ba18c ;
+            color: #ffffff;
+        }
+        .secondary{
+            background-color: #e4ebed;
+            color: rgb(147, 108, 108);
+        }
+        .destructive{
+            background-color: #fa7a59;
+            color:#ffffff;
+        }
+        .primary-2nd{
+            background-color: #ffffff;
+            color: #4ba18c;
+        }
+        .primary-2nd-td{
+            background-color: #4ba18c;
+        }
+        .primary-left{
+            background-color:#4ba18c;
+            color:#4ba18c;
+            border-color: #4ba18c;
+            border-style: solid;
+        }
+        .secondary-2nd{
+            background-color: #ffffff;
+            color: grey;
+            border-color: grey;
+            border-style: solid;
+        }
+        .destructive-2nd{
+            background-color: #ffffff;
+            color:#fa7a59;
+            border-color:#fa7a59;
+            border-style: solid;
+        }
+        .primary-right{
+            background-color:#4ba18c;
+            color:#ffffff;
+            border-color:#ffffff;
+            border-style: solid;
+        }
+        .click2{
+             border-width: 1px;
+        }
+        .primary-right-td{
+            background-color: #4ba18c;
+        }
+        .disable2{
+            border: none;
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .dotted{
+            border-style: dotted;
+            padding: 15px 20px;
+        }
+        .dashed{
+            border-style: dashed;
+            padding: 15px 20px;
+        }
+        .solid{
+            border: solid;
+            padding: 15px 20px;
+        }
+        .double{
+            border: double;
+            padding: 15px 20px;
+        }
+        .groove{
+            border: groove;
+            padding: 15px 20px;
+        }
+        .ridge{
+            border: ridge;
+            padding: 15px 20px;
+        }
+        .inset{
+            border: inset;
+            padding: 15px 20px;
+        }
+        .outset{
+            border: outset;
+            padding: 15px 20px;
+        }
+        .none{
+            border: none;
+            padding: 15px 20px;
+        }
+        .hidden{
+            border: hidden;
+            padding: 15px 20px;
+        }
+        .table-2{
+            width: 90%;
+            border-spacing: 100px;
+
+        }
+    </style>
+</head>
+    <h1>Buttons</h1>
+<body>
+    <table cellpadding="10">
+        <tr>
+            <td></td>
+            <td></td>
+            <th style="color: #bccfd5;">Primary</th>
+            <th style="color: #bccfd5;">Secondary</th>
+            <th style="color: #bccfd5;">Destructive</th>
+            <th style="color: #bccfd5;">Primary</th>
+        <tr>
+            <th style="color: #bccfd5;">Press, Hover, Default</th>
+            <td><button class=" plus-sign click">+</button></td>
+            <td><button class="click primary">Button</button></td>
+            <td><button class="click secondary">Button</button></td>
+            <td><button class="click destructive">Button</button></td>
+            <td class="primary-2nd-td"><button class="click primary-2nd">Button</button></td>
+        </tr>
+        <tr>
+            <th style="color: #bccfd5;">Disabled</th>
+            <td><button class="plus-sign disable">+</button></td>
+            <td><button class="disable primary">Button</button></td>
+            <td><button class="disable secondary">Button</button></td>
+            <td><button class="disable destructive ">Button</button></td>
+            <td class="primary-2nd-td"><button class="disable primary-2nd">Button</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th style="color: #bccfd5; background-color: #00ca99;">Secondary</th>
+        </tr>
+        <tr>
+            <th style="color: #bccfd5;">Press,Hover, Default</th>
+            <td></td>
+            <td><button class="click2  primary-left" >Button</button></td>
+            <td><button class="click2 secondary-2nd">Button</button></td>
+            <td><button class="click2 destructive-2nd">Button</button></td>
+            <td class="primary-right-td"><button class="click2 primary-right">Button</button></td>
+        </tr>
+        <tr>
+            <th style="color: #bccfd5;">Disabled</th>
+            <td></td>
+            <td><button class="disable2 primary-left" style="background-color:#00ca99 ; color:#ffffff">Button</button></td>
+            <td><button class="disable2 secondary-2nd" style="background-color:#bccfd5 ; color:gray">Button</button></td>
+            <td><button class="disable2 destructive-2nd" style="background-color:#fa7a59; color:#ffffff">Button</button></td>
+            <td class="primary-right-td"><button class="disable2 primary-right" style="background-color:#ffffff ; color:#00ca99">Button</button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h1 >Borders</h1>
+    <br>
+    <table class="table 2">
+        <tr>
+            <td class="dotted">dotted</td>
+            <td class="dashed">dashed</td>
+        </tr>
+        <tr>
+            <td class="solid">solid</td>
+            <td class="double">double</td>
+        </tr>
+        <tr>
+            <td class="groove">groove</td>
+            <td class="ridge">ridge</td>
+        </tr>
+        <tr>
+            <td class="inset">inset</td>
+            <td class="outset">outset</td>
+        </tr>
+        <tr>
+            <td class="none">none</td>
+            <td class="hidden">hidden</td>
+        </tr>
+    </table>
+</body>
+</html>
