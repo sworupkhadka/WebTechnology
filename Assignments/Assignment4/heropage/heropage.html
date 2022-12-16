@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <style>
+      h1{
+        color: #000000;
+        margin-left: 20px;
+      }
+      .text{
+        position: absolute;
+        font-size: 60px;
+        color: #000000;
+      }
+      ul{
+        position:absolute;
+        top: 305px;
+        left: 40px;
+        list-style-type: none;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+      }
+      li::before{
+        content: "✓";
+        color:#3269ce;
+        border: 7px solid #3269ce;
+        padding:0px 2px;
+        border-radius: 60px;
+        position: relative;
+        right: 40px;
+      }
+      p{
+        float: left;
+        margin: 50px;
+        position: relative;
+        left:380px;
+        bottom: 120px;
+        color: #000000;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+      }
+      button{
+        position: relative;
+        left: 460px;
+        bottom:60px;
+        padding: 10px 13px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        font-weight: bold;
+      }
+      .buttons-wrapper {
+        position: relative;
+        top: 450px;
+        margin-left: 20px;
+      }
+      .outer-button {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        width: 20%;
+        background: #ffffff;
+        color: rgb(91, 132, 146);
+        text-align: left;
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .inner-button {
+        position: absolute;
+        top: 8px;
+        left: 320px;
+        line-height: 5px;
+        height: 25px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(10, 10, 173);
+        font-size: 15px;
+        font-weight: bold;
+      }
+      img{
+        position: relative;
+        left: 50px;
+        top: 20px;
+        width: 450px;
+        height: 450px;
+        border-radius: 9px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Brand</h1>
+
+    <p>Home</p>
+    <p>Components</p>
+    <p>Pricing</p>
+    <p>FAQ</p>
+    <button>Contact US</button>
+    <h1 class="text">Easiest way to create <br> your website</h1>
+    <ul><h2>                      
+        <li>Clean and Simple Layout</li><br>
+        <li>Just Copy Paste Codeing</li><br>
+        <li>Easy to use</li></h2>
+    </ul>
+    <div>
+        <div class="buttons-wrapper">
+          <button class="outer-button">
+                Enter your email address
+              </button>
+          <button class="inner-button">
+                Join Us
+              </button>
+        </div>
+    </div>    
+    <img src="./herophoto.jpg" alt="photo">
+</html>
