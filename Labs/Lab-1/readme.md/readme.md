@@ -1,5 +1,5 @@
 LAB 1
-in lab 1 we used learned to be familiar with
+in lab 1 we used learned to be familiar with <code>br</code>
 image,video
 inframe
 nested order/unordered list
@@ -8,12 +8,12 @@ text formatting tags
 
 
 image ,video
-in image/video tag we learned how to put a image or a video on a html page using <img> and <video> tags
-in <img> tag we also determined the height and width of image
+in image/video tag we learned how to put a image or a video on a html page using <code>img</code> and <code>video</code> tags
+in <code>img </code> tag we also determined the height and width of image
 we used 
 SRC for source of image 
 ALT if the image didnt show
-in <video> we used 
+in <code> video</code>  we used  
 source src for source of video
 
 nested order/unordered list
@@ -33,14 +33,14 @@ solid cube
 text formatting tags
 text formatting tags are the tags used to format a existing text 
 like 
-<b> to make a text bold
-<u>to underline a text
-<sup> (superscript) to take a letter/digit to power of a number 
-<sub>to subscrpt a text
+ <code>b</code> to make a text bold
+<code>u</code>to underline a text
+<code>sup</code> (superscript) to take a letter/digit to power of a number 
+<code>sub</code>to subscrpt a text
 
 
 inframe
-<inframe> tag is used to put a existing website in our HTML document
+<code>inframe</code>tag is used to put a existing website in our HTML document
 
 
 CONCLUSION:
