@@ -28,6 +28,10 @@ C
 tick
 arrow
 solid cube
+for ordered list we used 
+<code>ol</code>
+for unordered list we used 
+<code>ul</code>
 
 
 text formatting tags
