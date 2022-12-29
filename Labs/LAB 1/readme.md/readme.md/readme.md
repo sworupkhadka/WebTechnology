@@ -18,12 +18,12 @@ source src for source of video
 
 nested order/unordered list
 nested list is known as a list within a list like 
-A
-B
-  1
-  2
-  3
-C
+ A 
+ B
+   1
+   2
+   3
+ C
  and unordered list is a list that doesnt have any order and uses bullets and signs like
 tick
 arrow
