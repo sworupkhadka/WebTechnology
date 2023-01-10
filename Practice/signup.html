@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style type="text/css">
+    div{
+    margin-bottom:  bottom 2px;
+    margin-left: 2px;
+    }
+</style>
+</head>
+<body>
+    <form action="process.html" id="signup-form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+        </div><br>
+    
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" />
+        </div><br>
+    
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+            <input type="checkbox" /> Show password
+        </div><br>
+    
+        <div>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" name="confirm_password" id="confirm-password" />
+        </div><br>
+    
+    
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+        </div><br>
+    
+        <div>
+            <input type="submit" value="Submit" />
+        </div><br>
+    </form>
+    
+    <script type="text/javascript">
+        const nameEl = document.querySelector("input[name=name]");
+	const usernameEl = document.querySelector("input[name=username]");
+	const passwordEl = document.querySelector("input[name=password]");
+	const confirmPasswordEl = document.querySelector("input[name=confirm-password]");
+	const emailEl = document.querySelector("input[name=email]");
+	
+	document.getElementById("signup-form").addEventListener("submit", validateInputs);
+    function validateInputs(event)
+	{
+
+    
+</body>
+</html>
