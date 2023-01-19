@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onblur event</title>
+</head>
+<body>
+    <h1>on blur</h1>
+<form id="myForm">
+  <input type="text" id="myInput">
+</form>
+<script>
+let x = document.getElementById("myForm");
+x.addEventListener("focusin", myFocusFunction);
+x.addEventListener("focusout", myBlurFunction);
+
+function myFocusFunction() {
+  document.getElementById("myInput").style.backgroundColor = "lightgreen";
+}
+
+function myBlurFunction() {
+  document.getElementById("myInput").style.backgroundColor = "";  
+}
+</script>
+</body>
+</html>

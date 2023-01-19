@@ -8,11 +8,10 @@
 </head>
 <body>
     <script type="text/javascript">
-        const String=prompt("HELLO");
-        for(let i=string.length; i>=0; i--)
-        {
-           console.log(string.length[i]);
-        }
+        const prompt = require("prompt-sync")({sigint:true});
+let str = prompt("Enter a string");
+let result = str.split('').reverse().join('');
+console.log(`Reverse of ${str} is ${result}`);
     </script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial of the Number</title>
+  </head>
+  <body>
+    <button id="click">click</button>
+    <h1 id="result"></h1>
+    <h2 id="more"></h2>
+    <script>
+      let num = 0,
+        fact = 0;
+      num = prompt("enter the number:");
+      alert("click the button in page for factorial");
+      fact = 1;
+      for (let i = num; i > 0; i--) {
+        fact *= i;
+      }
+      document.getElementById("click").addEventListener("click", () => {
+        document.getElementById("result").textContent =
+          "The factorial is:" + fact;
+        document.getElementById("more").textContent =
+          "refresh to enter number again";
+      });
+    </script>
+  </body>
+</html
